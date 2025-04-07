@@ -9,3 +9,71 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.back {
+    background-image: url(https://www.harrypotter.com/images/home/stars.png), linear-gradient(180deg, #c52400, #323657 121.35%);
+    background-position: 51% 91%, 70%, bottom;
+    background-size: 2000px auto, 2000px auto, 100% 100%;
+    height: 100vh;
+    width: 100%;
+
+}
+.paloSemaforo{
+    background-color: black;
+    width: 40px;
+    height: 120px;
+    border-color: black;
+    border-width: 5px;
+    border-style: double;
+    margin: auto;
+
+
+}
+.semaforo {
+    margin-top: auto;
+    border: 8px double rgb(22, 21, 21);
+    background: black;
+    border-radius: 2rem;
+    display: flex;
+    height: 55%;
+    width: 140px;
+    justify-content: center;   
+    flex-direction: column;
+    gap: 25px;
+}
+.redLigth, .yellowLigth, .greenLigth, .purpleLigth {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.redLigth {
+    background-color: red;
+}
+.yellowLigth {
+    background-color: yellow;
+}
+.greenLigth {
+    background-color: green;
+}
+.purpleLigth {
+    background-color: purple;
+}
+
+.iluminar {
+    box-shadow: 0px 0px 15px 15px rgba(255, 255, 255, 0.671)
+}
+
+.btn {
+    display: flex;
+    justify-self: center;
+    margin-top: 2rem;
+    cursor: pointer;
+    background-color: #323657;
+}
+.buttonColors {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
