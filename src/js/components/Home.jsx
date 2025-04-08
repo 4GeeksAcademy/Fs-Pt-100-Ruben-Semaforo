@@ -36,7 +36,7 @@ const Home = () => {
 		
 	}
 	const randomLigth = () => {
-		const colores = ['redLigth', 'greenLigth', 'yelowLigth', 'purpleLigth']
+		const colores = ['redLigth', 'greenLigth', 'yellowLigth', 'purpleLigth']
 		const random = colores[Math.floor(Math.random()*colores.length)]
 		setColors(random)
 	}
